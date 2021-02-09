@@ -6,7 +6,7 @@ module.exports = {
     {
       resolve: "gatsby-source-wordpress",
       options: {
-        url: "http://bedrock.local/graphql",
+        url: "http://bedrock.local/wp/graphql",
       },
     },
     "gatsby-plugin-emotion",
@@ -30,5 +30,6 @@ module.exports = {
       },
       __key: "pages",
     },
+    "gatsby-plugin-typescript",
   ],
 };
